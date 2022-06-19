@@ -1,0 +1,78 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+button>a{
+    color: aliceblue;
+}
+.header-login{
+    background-color: #79b530;
+    height: 80px;
+}
+.logo-header1>span{
+    line-height: 80px;
+    font-size: 34px;
+    color: rgb(27, 46, 32);
+    margin-left: 30px;
+}
+.logo-header1>a{
+    text-decoration: none;
+}
+.logo-cap2{
+    width: 90px !important;
+    vertical-align: none !important;
+}
+.logo-header1{
+    display: flex;
+}
+.login_form{
+    box-shadow: 20px 20px 50px grey !important;
+}
+.sign_up_form{
+    box-shadow: 20px 20px 50px grey !important;
+}
+.fj_post>.details{
+    cursor: pointer !important; 
+}
+#fixed-top-menu{
+    z-index: 9999 !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#logoutss{
+    position: absolute !important;
+    top: 30% !important;
+    right: 10% !important;
+}
+#logoutss:hover{
+    color: black !important;
+}
+.guess_name{
+    position: absolute !important;
+    top: 12px !important;
+    right: 20% !important;
+    color: black;
+}
+.avata_img{
+    border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+}
+/* modal */
+/* .modal{
+    z-index: 7749;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4)
+} */
