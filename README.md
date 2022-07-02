@@ -17,19 +17,19 @@ step 6: open browser and write "localhost/cap2". the project will work.
 + suporter899 pass: 123456
 + hr899 pass:123456
 
-admin: 
-+ can CRUD member
-user:
-+ can search the job.
-+ see detail the job.
-+ apply the job by submit cv (upload file pdf).
-+ chat realtime with supporter.
-+ read blog.
-poster:
-+ CRUD the post.
-+ edit status the post (private or public).
-supporter:
-+ chat realtime with candidate (user).
-human resource:
-+ CRUD the job.
-+ download cv that user submitted.
+-admin: 
+	+ can CRUD member
+-user:
+	+ can search the job.
+	+ see detail the job.
+	+ apply the job by submit cv (upload file pdf).
+	+ chat realtime with supporter.
+	+ read blog.
+-poster:
+	+ CRUD the post.
+	+ edit status the post (private or public).
+-supporter:
+	+ chat realtime with candidate (user).
+-human resource:
+	+ CRUD the job.
+	+ download cv that user submitted.
